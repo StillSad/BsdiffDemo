@@ -1,9 +1,9 @@
-#资料准备
-1.下载bsdiff
-http://www.daemonology.net/bsdiff/
-2.下载bzip2
-https://sourceforge.net/projects/bzip2/
-3.创建NDK项目，并在项目cpp目录下创建bspath和bzip2文件夹
+资料准备<br/>
+1.下载bsdiff<br/>
+http://www.daemonology.net/bsdiff/<br/>
+2.下载bzip2<br/>
+https://sourceforge.net/projects/bzip2/<br/>
+3.创建NDK项目，并在项目cpp目录下创建bspath和bzip2文件夹<br/>
 #复制文件
 1.复制bsdiff中bspatch.c到bspath目录
 2.复制 blocksort.c,bzlib.c,bzlib.h,bzlib_private.h,compress.c,crctable.c,decompress.c,huffman.c,randtable.c 到bzip2文件夹
